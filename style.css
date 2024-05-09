@@ -1,0 +1,158 @@
+body{
+  margin: 0;
+  padding: 0;
+
+}
+
+.body-container{
+  max-width: 100%;
+}
+.navigation-header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2em;
+  margin-left: 2em;
+}
+
+.navigation-right{
+  display:flex;
+  gap: 4em;
+  padding-right: 10px;
+}
+
+.navigation-right a{
+  text-decoration: none;
+  color: black;
+}
+
+.section{
+  display: flex;
+  gap: 5em;
+  margin-left: 2em;
+  
+}
+
+.section-right img{
+  width: 46vw;
+  margin-right: 60px;
+
+}
+.section-left{
+  margin: 40px;
+  margin-top: 60px;
+
+}
+
+.section-left h2{
+  font-size: xx-large;
+  font-weight: bold;
+  font-family: sans-serif;
+  
+  
+}
+
+.section-left input{
+  border-width: 1px ;
+  padding: 7px;
+  width: 250px;
+}
+
+.section-left button{
+  background-color: #007FFF;
+  color: white;
+  border: none;
+  margin-left: 7px;
+  padding: 8px 29px;
+  
+  
+}
+::placeholder{
+  opacity: 0.5;
+}
+
+.image2{
+  width: 30vw;
+}
+
+.mid-body-container{
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  /* margin-left: 80px; */
+  background-color:#F8F8F8;
+  min-width: 100vw;
+  margin: 0 !important;
+  /* margin-bottom: 40px; */
+  padding-bottom: 100px;
+  background-size: cover;
+
+}
+
+.mid-body-container h1{
+  font-size: xx-large ;
+  font-weight: bold;
+  width: 100%;
+  margin-left: 1px;
+  font-family:sans-serif;
+}
+
+.mid-body-container-left a{
+  color:#018749;
+}
+
+.link{
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+
+.small-container{
+  background-color: white;
+  margin-top: 40px;
+  padding: 20px;
+  width: 250px;
+  margin-bottom: 20;
+
+}
+
+.mid-body{
+  margin-top:200px;
+  margin-bottom: 0 !important;
+  
+}
+
+.mid-body-container-left{
+  margin-left: 80px;
+  margin-top: 20px;
+}
+
+.avatar-pic{
+  border-radius: 50%;
+  width: 3vw;
+}
+
+.testimonial-details{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.testimonial-info{
+  line-height: 3px;
+}
+
+.image2{
+  margin-left: 110px;
+  width: 35vw;
+  margin-top: 30px;
+
+}
+
+.mid-body-container-left p{
+  font-size: medium;  
+}
+
+.small-container p{
+  font-size: small;
+}
