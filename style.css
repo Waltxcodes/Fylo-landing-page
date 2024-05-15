@@ -76,8 +76,6 @@ body{
   margin-left: 7px;
   padding: 8px 29px;
   
-  
-  
 }
 
 
@@ -106,7 +104,7 @@ body{
   margin: 0 !important;
   /* margin-bottom: 40px; */
   padding-bottom: 100px;
-  background-size: cover;
+  /* background-size: cover; */
 
 }
 
@@ -142,7 +140,7 @@ hr{
   margin-top: 40px;
   padding: 20px;
   width: 250px;
-  margin-bottom: 20;
+  margin-bottom: 20px;
 
 }
 
@@ -336,8 +334,6 @@ hr{
   }
   
   .navigation-right a{
-    text-decoration: none;
-    color: black;
     font-family: 'Raleway';
     font-size: small;
     margin-bottom: 5px;
@@ -346,13 +342,20 @@ hr{
 
   .section{
     flex-direction: column-reverse;
+    gap: 3em;
+    margin-left: 0 !important;
+    padding: 0 10px;
     
+  }
+
+  .section-right{
+    padding: 18px;
   }
 
 
    .section-right img{
     width: 75vw;
-    margin-right: 20px;
+    padding: 5px;
     margin-top: 70px;
     height: 230px;
   
@@ -369,6 +372,7 @@ hr{
   .section-left{
      margin: 0.1em;
      
+     
     
   }
 
@@ -377,8 +381,103 @@ hr{
   font-size: large;
     
   }
+
+  .section-left input{
+    margin-left: 20px ;
+    margin-top: 7px;
+    padding: 10px ;
+    border-radius: 3px;
+    width: 285px;
+  }
+  
+  .section-left button{
+  margin-left: 20px;
+  margin-top: 30px;
+  padding: 11px 120px;
+  border-radius: 3px;
+    
+}
+
+.image-class{
+   top:-1.7rem !important;
+
+}
+
+.mid-body-container{
+
+flex-direction: column-reverse;
   
 
+}
+
+
+.image2{
+  margin-left: 5px;
+  width: 80vw;
+  margin-top: 70px;
+}
+
+.mid-body-container-left{
+  margin-left: 10px;
+  padding: 30px;
   
+}
+
+.mid-body-container h1{
+  font-size: large;
+  font-family: 'Raleway';
+  margin-left: 20px;
+}
+
+
+.mid-body-container-left p{
+  text-align: center; 
+  font-size: medium;
+  color: #7e7c92;
+  margin-right: 25px;
+  width: 330px;
+
+}
+
+.link{
+  margin-left: 90px;
+  margin-top: 30px;
+}
+
+
+hr{
+  width: 45%;
+  margin-left: 87px;
+  
+  }
+
+  .small-container{
+    
+  
+    padding-right: 300px;
+    width: 0;
+    margin-left: 5px;
+    border-radius: 4px;
+    
+  
+  
+  
+ }
+    
+
+
+  
+
+
+
+
+
+  
+
+
+  
+  
+  
+
 
 }
