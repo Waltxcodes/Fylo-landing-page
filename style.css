@@ -371,7 +371,7 @@ hr{
     
    }
   .section-left{
-     margin: 0.1em;
+     margin: 0.2em;
      
      
     
@@ -384,17 +384,17 @@ hr{
   }
 
   .section-left input{
-    margin-left: 20px ;
+     margin-left: 40px ;
     margin-top: 7px;
     padding: 10px ;
     border-radius: 3px;
-    width: 285px;
+    width: 270px;
   }
   
   .section-left button{
-  margin-left: 20px;
+  margin-left: 40px;
   margin-top: 30px;
-  padding: 11px 120px;
+  padding: 11px 110px;
   border-radius: 3px;
     
 }
@@ -793,11 +793,11 @@ hr{
   }
 }
 
-@media screen and (min-width: 769px) and (max-width: 1023px) {
+@media screen and (min-width: 769px) and (max-width: 991px) {
   
   .navigation-header {
     padding: 3em;
-    margin-left: 0.5em;
+    margin-left: 0.1em;
   }
 
 
